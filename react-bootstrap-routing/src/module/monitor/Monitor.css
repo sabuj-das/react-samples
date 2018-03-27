@@ -1,0 +1,39 @@
+
+.BREACH {
+    padding: 5px;
+    border: 1px solid #dddddd;
+    margin: 3px;
+    min-width: 30px !important;
+    text-align: center;
+    min-height: 28px !important;
+    border-radius: 2px;
+    color: #222;
+}
+
+.BREACH.DEFAULT {
+
+}
+
+.BREACH.SUCCESS {
+    border-color: darkgreen;
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.BREACH.WARN {
+    border-color: #edcf55;
+    background-color: #edcf55;
+    color: #ffffff;
+}
+
+.BREACH.ERROR {
+    border-color: #a81848;
+    background-color: #cc184b;
+    color: #ffffff;
+}
+
+.BREACH.INFO {
+    border-color: #0ca2ff;
+    background-color: #0980af;
+    color: #ffffff;
+}
