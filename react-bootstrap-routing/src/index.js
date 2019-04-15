@@ -21,6 +21,7 @@ import TeamOnboard from "./module/teams/TeamOnboard";
 import {APP_ROUTES, RouteWithSubRoutes} from "./RouteConfig";
 
 
+
 function Index() {
     return (
         <Router>

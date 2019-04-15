@@ -1,0 +1,56 @@
+
+
+@font-face {
+    font-family: 'Bitstream Vera Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('assets/fonts/ttf-bitstream-vera-1.10/Vera.ttf');
+}
+
+@font-face {
+    font-family: 'Bitstream Vera Sans Mono';
+    font-weight: 400;
+    font-style: normal;
+    src: url('assets/fonts/ttf-bitstream-vera-1.10/VeraMono.ttf');
+}
+
+
+
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+input[type="text"]
+{
+    font-family: "Bitstream Vera Sans Mono";
+}
+
+input[type="email"]
+{
+    font-family: "Bitstream Vera Sans Mono";
+}
+
+.mono {
+    font-family: 'Bitstream Vera Sans Mono', monospace !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.green {
+    color: #006400;
+}
+
+.large {
+    font-size: large;
+}
+
+.copy-to-clipboard {
+    padding-left: 10px;
+    cursor: copy;
+}
